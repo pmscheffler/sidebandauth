@@ -11,6 +11,10 @@ This project is meant to demonstrate sideband authentication functions through l
 - Client request is received with an OAuth Authorization header
   - Request is forwarded to pool member
 
+The flow is shown in the following diagram:
+![API Flowchar](https://images/APISidebandAuthFlow.png)
+
+
 ### A few items for clarification
 - The generation of the JWT token is beyond the scope of this document but is handled by an external API that rotates and caches tokens in the interest of processing time
 - The APM Session table is a secure storage location, protected by the Secure Vault infrastructure on the BIG-IP 
