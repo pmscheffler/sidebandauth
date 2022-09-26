@@ -12,7 +12,7 @@ This project is meant to demonstrate sideband authentication functions through l
   - Request is forwarded to pool member
 
 The flow is shown in the following diagram:
-![API Flowchar](/images/APISidebandAuthFlow.png)
+![API Flowchart](/images/APISidebandAuthFlow.png)
 
 
 ### A few items for clarification
